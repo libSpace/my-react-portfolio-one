@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: #3498db; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+}
+
+.navbar-brand {
+  color: #ffffff; /* Set the color of the brand text */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Set the color of the nav links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ecf0f1; /* Set the color of the nav links on hover */
+}

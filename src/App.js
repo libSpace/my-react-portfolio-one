@@ -1,11 +1,13 @@
-// import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import MyNavbar from './component/NavBar';
 import './App.css';
-import NavBar from './component/NavBar'
 
 function App() {
   return (
     <div className="App">
-     <NavBar />
+      <MyNavbar />
+      {/* Add your content here */}
     </div>
   );
 }
