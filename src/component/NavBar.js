@@ -4,8 +4,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 function MyNavbar() {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">React Navbar</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Brand href="#home">Malik Malope</Navbar.Brand>
+      {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>

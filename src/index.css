@@ -13,18 +13,26 @@ code {
 }
 
 .navbar {
-  background-color: #3498db; /* Set the background color */
+  background-color: #030637; /* Set the background color */
   color: #ffffff; /* Set the text color */
 }
 
 .navbar-brand {
   color: #ffffff; /* Set the color of the brand text */
 }
-
+.navbar-brand:hover{
+  color: #9e5bcd; /* Set the color of the nav logo on hover */
+}
 .navbar-nav .nav-link {
   color: #ffffff; /* Set the color of the nav links */
+  text-decoration: none;
+  display: display-flex;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ecf0f1; /* Set the color of the nav links on hover */
+  color: #9e5bcd; /* Set the color of the nav links on hover */
+}
+
+.Home {
+  filter: invert(15%) sepia(67%) saturate(2471%) hue-rotate(216deg) brightness(88%) contrast(134%);
 }
