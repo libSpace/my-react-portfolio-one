@@ -1,6 +1,15 @@
 import React from 'react';
 import './NavBar.css';
-
+// Home icon 
+import { IoHomeOutline } from "react-icons/io5";
+// About icon
+import { VscAccount } from "react-icons/vsc";
+// education and experience icon 
+import { FiBookOpen } from "react-icons/fi";
+// projects
+import { GrProjects } from "react-icons/gr";
+// Contatcs
+import { MdOutlineAttachEmail } from "react-icons/md";
 
 function NavBar() {
   return (
@@ -11,19 +20,19 @@ function NavBar() {
         <div className='myLogo' >Malik Malope</div>
         <ul>
           <li className='menu-item'>
-            Home
+          <IoHomeOutline className='my-icon'/>
           </li>
           <li className='menu-item'>
-            About
+          <VscAccount className='my-icon' />
           </li>
           <li className='menu-item'>
-            Education
+            <FiBookOpen className='my-icon' />
           </li>
           <li className='menu-item'>
-            Projects
+            <GrProjects className='my-icon' />
           </li>
           <li className='menu-item'>
-            Contacts
+            <MdOutlineAttachEmail className='my-icon' />
           </li>
         </ul>
       </div>
