@@ -1,22 +1,35 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import './NavBar.css';
 
-function MyNavbar() {
+
+function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">Malik Malope</Navbar.Brand>
-      {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#education">Education</Nav.Link>
-          <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#contacts">Contacts</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <>
+    <nav className='nav-wrapper'>
+      <div className='nav-content'>
+        {/* <img className='logo' src='./src/images/logoname.png' alt='my-logo'/> */}
+        <div className='myLogo' >Malik Malope</div>
+        <ul>
+          <li className='menu-item'>
+            Home
+          </li>
+          <li className='menu-item'>
+            About
+          </li>
+          <li className='menu-item'>
+            Education
+          </li>
+          <li className='menu-item'>
+            Projects
+          </li>
+          <li className='menu-item'>
+            Contacts
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </>
   );
 }
 
-export default MyNavbar;
+export default NavBar;
