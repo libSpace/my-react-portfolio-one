@@ -1,5 +1,10 @@
 import React from 'react';
 import './NavBar.css';
+
+
+/* Icon libraries
+#################*/
+
 // Home icon 
 import { IoHomeOutline } from "react-icons/io5";
 // About icon
