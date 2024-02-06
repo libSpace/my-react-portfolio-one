@@ -1,8 +1,6 @@
 // src/App.js
-import React from 'react';
-import NavBar from './component/NavBar';
-import './App.css';
-
+import React from "react";
+import NavBar from "./component/NavBar";
 
 function App() {
   return (

@@ -4,6 +4,7 @@
   top: 0;
   z-index: 30;
   backdrop-filter: blur(50px);
+  box-shadow: 0 0 10px #e487e6;
 }
 .nav-content {
   max-width: 1300px;
@@ -11,7 +12,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+}
+
+/* Menu items on the right nav side */
+.nav-content .menu-wrapper {
+  border: red solid 2px;
+  justify-content: center;
+  padding: 0;
 }
 
 .myLogo {
@@ -68,18 +76,33 @@
   opacity: 1;
 }
 
-/* Bottom Nav line */
-hr.nav-liner {
-  width: 100%;
-  animation: expand 0.5s ease-in-out;
-  box-shadow: 0px 4px 8px rgba(208, 34, 191, 0.5); /* Add white shadow */
-}
-
 @keyframes expand {
   from: {
     transform: scaleX(0);
   }
   to: {
     transform: scaleX(1);
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 680px) {
+  .nav-content {
+    align-items: center;
+    flex-direction: column;
+    max-width: fit-content;
+  }
+  .nav-wrapper {
+    max-width: 100%;
+  }
+
+  .nav-content ul {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    .menu-item {
+      font-size: 0.1rem;
+    }
   }
 }
