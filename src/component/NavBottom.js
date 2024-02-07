@@ -21,7 +21,7 @@ function NavBottom() {
      
 
     <div className="mobile-nav">
-    {/* <hr className="mobile-liner"></hr> */}
+    <hr className="mobile-liner"></hr>
       <nav className="nav-wrapper">
           
           <div className="menu-bot-wrapper">
