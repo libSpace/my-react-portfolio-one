@@ -6,10 +6,64 @@ function Home(){
             <div className="home-intro">
             <h1 className="home-header">
                 Hi,
+                </h1>
+
+                <h1 className="home-header">
                 I'm Malik Malope
-                Jnr Software Developer.
+                </h1>
+
+                <h1 className="home-header">
+                <span>Jnr Software Developer. </span>
             </h1>
-            <p>Lets try something out</p>
+            {/* ##################################################### */}
+            <h1 className="home-header">
+                Hi,
+                </h1>
+
+                <h1 className="home-header">
+                I'm Malik Malope
+                </h1>
+
+                <h1 className="home-header">
+                <span>Jnr Software Developer. </span>
+            </h1>
+            {/* ##################################################### */}
+            <h1 className="home-header">
+                Hi,
+                </h1>
+
+                <h1 className="home-header">
+                I'm Malik Malope
+                </h1>
+
+                <h1 className="home-header">
+                <span>Jnr Software Developer. </span>
+            </h1>
+            {/* ##################################################### */}
+            <h1 className="home-header">
+                Hi,
+                </h1>
+
+                <h1 className="home-header">
+                I'm Malik Malope
+                </h1>
+
+                <h1 className="home-header">
+                <span>Jnr Software Developer. </span>
+            </h1>
+            {/* ##################################################### */}
+            <h1 className="home-header">
+                Hi,
+                </h1>
+
+                <h1 className="home-header">
+                I'm Malik Malope
+                </h1>
+
+                <h1 className="home-header">
+                <span>Jnr Software Developer. </span>
+            </h1>
+            <button>Test button</button> 
             </div>
 
             <div className="tech-stack">
