@@ -18,7 +18,10 @@ import { MdOutlineAttachEmail } from "react-icons/md";
 function NavBottom() {
   return (
     <>
+     
+
     <div className="mobile-nav">
+    {/* <hr className="mobile-liner"></hr> */}
       <nav className="nav-wrapper">
           
           <div className="menu-bot-wrapper">
@@ -40,6 +43,7 @@ function NavBottom() {
               </li>
             </ul>
           </div>
+         
       </nav>
       </div>
     </>
