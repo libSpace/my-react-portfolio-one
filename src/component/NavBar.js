@@ -20,7 +20,11 @@ function NavBar() {
     <>
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <div className="myLogo">Malik Malope</div>
+          <div className="myLogo">
+            Malik Malope
+            <hr className="logo-liner"></hr>
+          </div>
+          
           <div className="menu-wrapper">
             <ul className="menu">
               <li className="menu-item">
@@ -41,6 +45,7 @@ function NavBar() {
             </ul>
           </div>
         </div>
+        <hr className="liner"></hr>
       </nav>
     </>
   );
