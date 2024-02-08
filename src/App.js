@@ -3,14 +3,19 @@ import React from "react";
 import NavBar from "./component/NavBar";
 import NavBottom from "./component/NavBottom";
 import Home from "./component/Home";
+
+// App styling
 import "./App.css"
+
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      
       <div className="container">
         <Home />
+        {/* About */}
       </div>
       <NavBottom/>
     </div>
