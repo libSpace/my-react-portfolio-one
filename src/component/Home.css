@@ -12,7 +12,7 @@
     border-radius: 0.2rem;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .intro-line{
         width: 90%;
         /* display: flex; */
@@ -22,3 +22,17 @@
     }
     
 }
+@media (max-width: 550px){
+    .intro-line{
+        width: 90%;
+        
+       
+        /* height: 100vh; */
+    }
+    .intro-para{
+        font-size: 0.65rem;
+    }
+
+    
+}
+

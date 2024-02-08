@@ -10,3 +10,12 @@
     color: #faf4f7; /* Cursor color */
     
   }
+
+  
+@media (max-width: 550px){
+  .typed-text{
+    font-size: 1.25rem;
+  }
+
+  
+}

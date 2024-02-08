@@ -5,19 +5,21 @@ import './Home.css'
 function Home(){
     return (
         <section className="home-container">
-            <div className="home-content" >
+            <div className="home-content-left" >
                 <div className="intro-content">
-                    <h1>Hi,</h1>
-                    <h1>I am <span className="name">Malik</span> <span className="surname">Malope,</span></h1>
-                    <Malik className="auto-text" />
+                    <div className="intro-text">
+                        <h1>Hi,</h1>
+                        <h1>I am <span className="name">Malik</span> <span className="surname">Malope,</span></h1>
+                        <Malik className="auto-text" />
+                    </div>
                     {/* Horizontyal line element */}
                     <hr className="intro-line" />
 
-                    <p>Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
+                    <p className="intro-para">Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
                 </div>
                             
-                <div className="skill-show">
-                    Test Tex
+                <div className="socials-content">
+                    Socials content
                 </div> 
             </div>
         </section>
