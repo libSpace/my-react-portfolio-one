@@ -2,74 +2,15 @@ import React from "react";
 
 function Home(){
     return (
-        <div className="home-content">
-            <div className="home-intro">
-            <h1 className="home-header">
-                Hi,
-                </h1>
-
-                <h1 className="home-header">
-                I'm Malik Malope
-                </h1>
-
-                <h1 className="home-header">
-                <span>Jnr Software Developer. </span>
-            </h1>
-            {/* ##################################################### */}
-            <h1 className="home-header">
-                Hi,
-                </h1>
-
-                <h1 className="home-header">
-                I'm Malik Malope
-                </h1>
-
-                <h1 className="home-header">
-                <span>Jnr Software Developer. </span>
-            </h1>
-            {/* ##################################################### */}
-            <h1 className="home-header">
-                Hi,
-                </h1>
-
-                <h1 className="home-header">
-                I'm Malik Malope
-                </h1>
-
-                <h1 className="home-header">
-                <span>Jnr Software Developer. </span>
-            </h1>
-            {/* ##################################################### */}
-            <h1 className="home-header">
-                Hi,
-                </h1>
-
-                <h1 className="home-header">
-                I'm Malik Malope
-                </h1>
-
-                <h1 className="home-header">
-                <span>Jnr Software Developer. </span>
-            </h1>
-            {/* ##################################################### */}
-            <h1 className="home-header">
-                Hi,
-                </h1>
-
-                <h1 className="home-header">
-                I'm Malik Malope
-                </h1>
-
-                <h1 className="home-header">
-                <span>Jnr Software Developer. </span>
-            </h1>
-            <button>Test button</button> 
+        <section className="home-container">
+            <div className="home-content" >
+                <h2>Hi, I am Malik Malope, software developer</h2>
+                <p>JavScript Css</p>
             </div>
 
-            <div className="tech-stack">
+            <div className="skill-show"></div>
 
-            </div>
-        </div>
+        </section>
     );
 }
 
