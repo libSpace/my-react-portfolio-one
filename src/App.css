@@ -1,5 +1,6 @@
 .container{
-    max-width: 1300px; 
+    /* max-width: 1300px; ' */
+    
     position: relative;
     border: red 3px solid;
 

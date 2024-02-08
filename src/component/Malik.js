@@ -18,6 +18,8 @@ function Malik() {
         typeSpeed: 150,
         backSpeed: 100,
         loop: true,
+        
+        
       };
   
       // Ensure that the typedRef.current (HTML element) is not null before creating the Typed instance

@@ -1,12 +1,12 @@
 .typed-text {
-    /* Define styles for the typed text */
-    /* font-family: 'Arial', sans-serif; */
-    font-size: 2rem;
-    color: #3498db;
-    /* Add any other styles as needed */
+    font-family: 'poppind', sans-serif;
+    font-size: 3.5rem;
+    color: #E487E5;
+    font-weight: bold;
+
   }
   
-  /* Additional styles for the container if necessary */
-  /* .typed-container {
-     
-  } */
+  .typed-cursor {
+    color: #faf4f7; /* Cursor color */
+    
+  }
