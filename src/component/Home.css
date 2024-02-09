@@ -1,38 +1,30 @@
-/* Name decoration from the intro name */
-.name, .surname{
-    font-size:xx-large;
-    font-weight: bolder;
-    color: white;
+.home-container{
+    /* display: flex; */
+    border: 3px solid red;
 }
 
-.intro-line{
-    width: 47%;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
-    border-radius: 0.2rem;
+.main-content{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.intro{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 3px solid yellow; 
+}
+.intro h1{
+    font-size: 3rem;
+    font: bold;
+    line-height: 5rem;
 }
 
-@media (max-width: 1000px){
-    .intro-line{
-        width: 90%;
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* height: 100vh; */
-    }
-    
+.intro-content{
+    display: flex;
 }
-@media (max-width: 550px){
-    .intro-line{
-        width: 90%;
-        
-       
-        /* height: 100vh; */
-    }
-    .intro-para{
-        font-size: 0.65rem;
-    }
-
-    
+.intro-content .left{
+    width: 65%;
 }
 

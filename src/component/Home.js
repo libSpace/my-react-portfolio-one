@@ -1,26 +1,53 @@
 import React from "react";
 import Malik from "./Malik";
 import './Home.css'
+import Skill from "./Skill";
 
 
 function Home(){
     return (
+        // Main section
         <section className="home-container">
-            <div className="home-content-left" >
-                <div className="intro-content">
-                    <div className="intro-text">
-                        <h1>Hi,</h1>
-                        <h1>I am <span className="name">Malik</span> <span className="surname">Malope,</span></h1>
-                        <Malik className="auto-text" />
-                    </div>
-                    {/* Horizontyal line element */}
-                    <hr className="intro-line" />
+            {/* Main content */}
+            <div className="main-content">
 
-                    <p className="intro-para">Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
+                {/* Intoduction text  */}
+                <div className="intro">
+                <h1>
+                    <strong>
+                    Welcome to a world of innovation and creativity!
+                    </strong>
+                </h1>
                 </div>
+
+                {/* intro to my role on the left and my tech stack on the right */}
+                <div className="intro-content" >
+                    {/* left content */}
+                    <div className="left">
+                        <div className="left-content">
+                            {/* Welcome to a world of innovation and creativity! My name is Malik, and I'm */}
+                            <h1>My name is <span className="name">Malik</span> <span className="surname">Malope,</span></h1>
                             
-                <div className="socials-content">
-                </div> 
+                            {/* An instance of my auto typed role titles */}
+                            <Malik className="auto-text" />
+
+                            {/* Horizontyal line element */}
+                            <hr className="intro-line" />
+                        </div>
+                        {/* Horizontyal line element
+                        <hr className="intro-line" /> */}
+
+                        <p className="intro-para">Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
+                    </div>
+                    
+                    {/* Skills : right section */}
+                    <div className="right">
+                        <Skill />
+                    </div>
+                         
+                </div>
+
+                
             </div>
         </section>
     );

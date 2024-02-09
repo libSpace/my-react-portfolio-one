@@ -1,30 +1,32 @@
 .cont {
     position: relative;
-    min-height: 100vh;
-    padding: 50px 40px;
-    margin-top: 7px;
+    min-height: 50vh;
+    /* padding: 50px 50px; */
+    /* margin: 25px; */
+    /* margin-top: 7px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
+    border: red solid 3px;
 }
 
 .cont .logo-skill {
     position: relative; /* Change from inherit to relative */
-    margin: -50px;
-    height: 520px;
-    width: 520px;
+    /* margin: -25px; */
+    height: 260px;
+    width: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 50%;
     user-select: none;
 }
 
 .cont .logo-skill .main-img {
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -45,8 +47,8 @@
 
 .cont .logo-skill .circle {
     position: absolute;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     background-color: rgb(4, 4, 44);
     display: flex;
@@ -128,11 +130,11 @@
 
 .cont img {
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     border: 3px solid red;
-    transform: translate(-200px);
+    transform: translate(-100px);
     opacity: 0;
     animation: fade-in 1s ease 1 0.5s forwards;
 }

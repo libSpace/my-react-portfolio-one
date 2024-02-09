@@ -16,7 +16,7 @@ function Malik() {
           "Statistics Tutor"
         ],
         typeSpeed: 150,
-        backSpeed: 100,
+        backSpeed: 95,
         loop: true,
         
         
