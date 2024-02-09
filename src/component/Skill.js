@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../images/logoname.png';
+import img from '../images/MALIK-removebg-preview.png';
 import './Skill.css';
 
 function Skill(){
@@ -16,7 +16,7 @@ function Skill(){
                 <span className="circle" ></span>   
                 <span className="circle" ></span>   
             </div>
-            <img src={img} alt="My self" /> 
+            <img className="skill-image" src={img} alt="My self" /> 
         </div>
         </div>
     );

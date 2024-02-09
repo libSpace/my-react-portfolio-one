@@ -42,7 +42,7 @@ function Home(){
                     
                     {/* Skills : right section */}
                     <div className="right">
-                        <Skill />
+                        <Skill  className="skill-object" />
                     </div>
                          
                 </div>

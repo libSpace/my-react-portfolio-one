@@ -26,5 +26,19 @@
 }
 .intro-content .left{
     width: 65%;
+    text-align: center;
+    line-height: 5rem;
 }
 
+.intro-content .left .name, .surname{
+    font-size: xx-large;
+    color: #E487E5;
+}
+
+.intro-content .right{
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}

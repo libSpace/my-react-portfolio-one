@@ -19,8 +19,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     border-radius: 50%;
     user-select: none;
+    padding-left: 45%;
+    padding-top: 25%;
 }
 
 .cont .logo-skill .main-img {
@@ -35,7 +38,7 @@
     cursor: pointer;
 }
 
-.cont .logo-skill .main-img:hover {
+.cont .logo-skill .main-img {
     animation: spin 8s linear 1s infinite;
 }
 
@@ -50,7 +53,8 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: rgb(4, 4, 44);
+    /* background-color: rgb(4, 4, 44); */
+    background-color: #E487E5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +62,11 @@
     opacity: 0;
 }
 
-.cont .logo-skill .main-img:active .circle {
+.cont .logo-skill .main-img .circle {
     opacity: 1;
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(1) {
+.cont .logo-skill .main-img .circle:nth-child(1) {
     background: url(../skills/java.png);
     background-size: cover;
     background-position: center;
@@ -70,7 +74,7 @@
     transform: translateY(-210%);
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(2) {
+.cont .logo-skill .main-img .circle:nth-child(2) {
     background: url(../skills/BI.png);
     background-size: cover;
     background-position: center;
@@ -79,7 +83,7 @@
 }
 
 
-.cont .logo-skill .main-img:active .circle:nth-child(3){
+.cont .logo-skill .main-img .circle:nth-child(3){
     background: url(../skills/Bootstrap.png);
     background-size: cover;
     background-position: center;
@@ -87,7 +91,7 @@
     transform: translateX(210%);
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(4){
+.cont .logo-skill .main-img .circle:nth-child(4){
     background: url(../skills/js.png);
     background-size: cover;
     background-position: center;
@@ -95,7 +99,7 @@
     transform: translate(150%,150%);
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(5){
+.cont .logo-skill .main-img .circle:nth-child(5){
     background: url(../skills/python.png);
     background-size: cover;
     background-position: center;
@@ -103,7 +107,7 @@
     transform: translateY(210%);
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(6){
+.cont .logo-skill .main-img .circle:nth-child(6){
     background: url(../skills/R.png);
     background-size: cover;
     background-position: center;
@@ -111,7 +115,7 @@
     transform: translate(-150%, 150%);
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(7){
+.cont .logo-skill .main-img .circle:nth-child(7){
     background: url(../skills/react.png);
     background-size: cover;
     background-position: center;
@@ -119,7 +123,7 @@
     transform: translateX(-210%);
 }
 
-.cont .logo-skill .main-img:active .circle:nth-child(8){
+.cont .logo-skill .main-img .circle:nth-child(8){
     background: url(../skills/sql.png);
     background-size: cover;
     background-position: center;
@@ -133,7 +137,7 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid #E487E5;
     transform: translate(-100px);
     opacity: 0;
     animation: fade-in 1s ease 1 0.5s forwards;
