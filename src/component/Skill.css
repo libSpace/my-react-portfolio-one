@@ -8,14 +8,14 @@
     flex-direction: column;
     justify-content: right;
     align-items: right;
-    border: red solid 3px;
+    /* border: red solid 3px; */
 }
 
 .cont .logo-skill {
     position: relative; /* Change from inherit to relative */
     /* margin: -25px; */
-    height: 260px;
-    width: 260px;
+    height: 286px;
+    width: 286px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,8 +28,8 @@
 
 .cont .logo-skill .main-img {
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 165px;
+    width: 165px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -50,8 +50,8 @@
 
 .cont .logo-skill .circle {
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     /* background-color: rgb(4, 4, 44); */
     background-color: #E487E5;
@@ -134,8 +134,8 @@
 
 .cont img {
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 165px;
+    width: 165px;
     border-radius: 50%;
     border: 3px solid #E487E5;
     transform: translate(-100px);

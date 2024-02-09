@@ -21,7 +21,7 @@ function NavBar() {
       <nav className="nav-wrapper">
         <div className="nav-content">
           <div className="myLogo">
-            Malik Malope
+            <h1>Malik Malope</h1>
             <hr className="logo-liner"></hr>
           </div>
           

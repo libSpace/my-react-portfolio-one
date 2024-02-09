@@ -7,11 +7,14 @@
   background-color: #030637;
   position: sticky;
   top: 0;
-  z-index: 30;
+  /* z-index: 30; */
   backdrop-filter: blur(50px);
+  margin: 1rem;
+  
 }
 .nav-content {
-  max-width: 1300px;
+  /* max-width: 82rem; */
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,26 +22,27 @@
 
 /* Menu items on the right nav side */
 .nav-content .menu-wrapper {
-  justify-content: center;
+  justify-content: right;
   padding: 0;
 }
 
 .myLogo {
   user-select: none;
-  padding-left: 1rem ;
+  padding-left: 1.5rem ;
 }
+.myLogo 
 .logo-liner{
  display: none;
 }
 
 
 .myLogo:hover {
-  color: #E487E5;
+  color: #c191c2;
 }
 
 /* Icons size manipulation */
 .my-icon {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .nav-content ul {

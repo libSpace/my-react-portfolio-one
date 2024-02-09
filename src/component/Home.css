@@ -1,6 +1,7 @@
 .home-container{
     /* display: flex; */
-    border: 3px solid red;
+    /* border: 3px dotted red; */
+    margin: 2rem;
 }
 
 .main-content{
@@ -8,15 +9,17 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    
 }
 .intro{
     justify-content: center;
     align-content: center;
     text-align: center;
-    border: 3px solid yellow; 
+    /* border: 3px solid yellow;  */
+    margin: 1rem;
 }
 .intro h1{
-    font-size: 3rem;
+    font-size: 3.8rem;
     font: bold;
     line-height: 5rem;
 }

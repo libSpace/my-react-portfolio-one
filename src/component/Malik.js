@@ -11,11 +11,8 @@ function Malik() {
         strings: [
           "Jnr Software Developer",
           "An Aspiring Data Analyst",
-          "An Aspiring Data Engineer",
-          "Mathematics Tutor",
-          "Statistics Tutor"
         ],
-        typeSpeed: 150,
+        typeSpeed: 118,
         backSpeed: 95,
         loop: true,
         
