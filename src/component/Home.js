@@ -2,6 +2,7 @@ import React from "react";
 import Malik from "./Malik";
 import './Home.css'
 
+
 function Home(){
     return (
         <section className="home-container">
@@ -19,7 +20,6 @@ function Home(){
                 </div>
                             
                 <div className="socials-content">
-                    Socials content
                 </div> 
             </div>
         </section>

@@ -1,0 +1,145 @@
+.cont {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 40px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont .logo-skill {
+    position: relative; /* Change from inherit to relative */
+    margin: -50px;
+    height: 520px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    user-select: none;
+}
+
+.cont .logo-skill .main-img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.cont .logo-skill .main-img:hover {
+    animation: spin 8s linear 1s infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.cont .logo-skill .circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(4, 4, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease;
+    opacity: 0;
+}
+
+.cont .logo-skill .main-img:active .circle {
+    opacity: 1;
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(1) {
+    background: url(../skills/java.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateY(-210%);
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(2) {
+    background: url(../skills/BI.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(150%, -150%);
+}
+
+
+.cont .logo-skill .main-img:active .circle:nth-child(3){
+    background: url(../skills/Bootstrap.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateX(210%);
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(4){
+    background: url(../skills/js.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(150%,150%);
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(5){
+    background: url(../skills/python.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateY(210%);
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(6){
+    background: url(../skills/R.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(-150%, 150%);
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(7){
+    background: url(../skills/react.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateX(-210%);
+}
+
+.cont .logo-skill .main-img:active .circle:nth-child(8){
+    background: url(../skills/sql.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(-150%,-150%);
+}
+
+
+.cont img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid red;
+    transform: translate(-200px);
+    opacity: 0;
+    animation: fade-in 1s ease 1 0.5s forwards;
+}
+
+@keyframes fade-in {
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
