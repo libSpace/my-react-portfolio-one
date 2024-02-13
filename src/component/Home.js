@@ -3,6 +3,11 @@ import Malik from "./Malik";
 import './Home.css'
 import Skill from "./Skill";
 
+// Icons from react icons
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
+
 
 function Home(){
     return (
@@ -37,7 +42,15 @@ function Home(){
                         {/* Horizontyal line element
                         <hr className="intro-line" /> */}
 
-                        <p className="intro-para">Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
+                        <div className="intro-para">
+                            <p >Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
+                        </div>
+                        <div className="btn-icon">
+                        <FaGithubSquare />
+                        <FaLinkedin />
+                        <button className="my-btn1"> Download cv</button>
+
+                        </div>
                     </div>
                     
                     {/* Skills : right section */}

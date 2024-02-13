@@ -32,11 +32,11 @@
     justify-content: center;
 }
 .intro-content .left{
-    width: 50%;
+    width: 55%;
     text-align: center;
     line-height: 5rem;
     border: 3px red solid;
-    /* margin-left: 3rem; */
+    
 }
 
 .intro-content .left .name, .surname{
@@ -52,6 +52,7 @@
     align-content: right;
     /* margin-left: 2rem; */
     border: 3px red solid;
+    
 }
 
 /* Media query for mobile devices */
