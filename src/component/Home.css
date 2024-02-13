@@ -5,7 +5,7 @@
 
 .home-container{
     /* display: flex; */
-    border: 3px dotted red;
+    /* border: 3px dotted red; */
     margin: 2rem;
     /* animation: fade-in 1s ease 1 0.5s forwards; */
     
@@ -17,13 +17,13 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: yellow solid 3px;
+    /* border: yellow solid 3px; */
 }
 .intro{
     justify-content: center;
     align-content: center;
     text-align: center;
-    border: 3px solid white; 
+    /* border: 3px solid white;  */
     margin: 1rem;
 }
 .intro h1{
@@ -40,7 +40,7 @@
     width: 55%;
     text-align: center;
     line-height: 5rem;
-    border: 3px red solid;
+    /* border: 3px red solid; */
     
 }
 
@@ -88,7 +88,7 @@
     align-items: right;
     align-content: right; */
     /* margin-left: 2rem; */
-    border: 3px red solid;
+    /* border: 3px red solid; */
     
 }
 

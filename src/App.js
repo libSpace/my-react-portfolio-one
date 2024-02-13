@@ -1,9 +1,9 @@
 
 import React from "react";
 import NavBar from "./component/NavBar";
-import NavBottom from "./component/NavBottom";
-import About from "./component/About";
 import Home from "./component/Home";
+import About from "./component/About";
+import NavBottom from "./component/NavBottom";
 // import Skill from "./component/Skill";
 
 // App styling
@@ -18,9 +18,10 @@ function App() {
       <div className="container">
         <Home />
         <About />
+        <NavBottom/>
         {/* <Skill /> */}
       </div>
-      <NavBottom/>
+      
     </div>
   );
 }

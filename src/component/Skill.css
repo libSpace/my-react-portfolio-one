@@ -1,4 +1,4 @@
-.cont {
+/* .cont { */
     /* position: relative; */
     /* min-height: 50vh; */
     /* padding: 50px 50px; */
@@ -8,8 +8,8 @@
     /* flex-direction: column; */
     /* justify-content: right; */
     /* align-items: right; */
-    border: rgb(17, 0, 255) solid 3px;
-}
+    /* border: rgb(17, 0, 255) solid 3px; */
+/* } */
 
 .cont .logo-skill {
     position: relative; /* Change from inherit to relative */

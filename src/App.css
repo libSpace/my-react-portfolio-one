@@ -6,8 +6,9 @@
 
 }
 
-@media (max-width: 1300px){
+@media (max-width: 700px){
     .cotainer{
         padding: 0 1.5rem;
+        position: sticky;
     }
 }
