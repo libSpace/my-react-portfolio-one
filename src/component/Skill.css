@@ -1,14 +1,14 @@
 .cont {
-    position: relative;
-    min-height: 50vh;
+    /* position: relative; */
+    /* min-height: 50vh; */
     /* padding: 50px 50px; */
     /* margin: 25px; */
     /* margin-top: 7px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
-    /* border: red solid 3px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: right; */
+    /* align-items: right; */
+    border: rgb(17, 0, 255) solid 3px;
 }
 
 .cont .logo-skill {
@@ -22,14 +22,14 @@
     align-content: center;
     border-radius: 50%;
     user-select: none;
-    padding-left: 45%;
-    padding-top: 25%;
+    /* padding-left: 45%; */
+    /* padding-top: 25%; */
 }
 
 .cont .logo-skill .main-img {
     position: absolute;
-    height: 165px;
-    width: 165px;
+    height: 11rem;
+    width: 11rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;

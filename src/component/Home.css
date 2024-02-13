@@ -1,7 +1,10 @@
 .home-container{
     /* display: flex; */
-    /* border: 3px dotted red; */
+    border: 3px dotted red;
     margin: 2rem;
+   
+    
+    
 }
 
 .main-content{
@@ -9,13 +12,13 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    
+    border: yellow solid 3px;
 }
 .intro{
     justify-content: center;
     align-content: center;
     text-align: center;
-    /* border: 3px solid yellow;  */
+    border: 3px solid white; 
     margin: 1rem;
 }
 .intro h1{
@@ -26,11 +29,14 @@
 
 .intro-content{
     display: flex;
+    justify-content: center;
 }
 .intro-content .left{
     width: 50%;
     text-align: center;
     line-height: 5rem;
+    border: 3px red solid;
+    /* margin-left: 3rem; */
 }
 
 .intro-content .left .name, .surname{
@@ -40,11 +46,12 @@
 
 .intro-content .right{
     /* width: 35%; */
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 2rem;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    align-content: right;
+    /* margin-left: 2rem; */
+    border: 3px red solid;
 }
 
 /* Media query for mobile devices */
@@ -54,9 +61,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        justify-content: center;
+        display: flex;
+
     }
-   .intro-content .right{
+   .intro-content .left{
     /* align-items: center; */
     /* border: red solid 3px; */
+    width: 80%;
+    align-items: center;
+
    }
 }
