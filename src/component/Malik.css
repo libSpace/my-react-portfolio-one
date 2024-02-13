@@ -8,6 +8,7 @@
   
   .typed-cursor {
     color: #faf4f7; /* Cursor color */
+    animation: spin 8s linear 1s infinite;
     
   }
 
@@ -15,7 +16,6 @@
 @media (max-width: 550px){
   .typed-text{
     font-size: 1.25rem;
+    line-height: 1.5rem;
   }
-
-  
 }

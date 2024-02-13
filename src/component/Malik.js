@@ -10,7 +10,7 @@ function Malik() {
       const options = {
         strings: [
           "Jnr Software Developer",
-          "An Aspiring Data Analyst",
+          "A Data Analyst",
         ],
         typeSpeed: 118,
         backSpeed: 95,

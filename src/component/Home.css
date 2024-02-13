@@ -7,7 +7,7 @@
     /* display: flex; */
     border: 3px dotted red;
     margin: 2rem;
-   
+    /* animation: fade-in 1s ease 1 0.5s forwards; */
     
     
 }
@@ -101,7 +101,16 @@
         align-items: center;
         justify-content: center;
         display: flex;
+        
+        
 
+    }
+    .intro h1{
+        font-size: 2.2rem;
+        line-height: 2rem;
+    }
+    .left-content h1{
+        line-height: 2rem;
     }
    .intro-content .left{
         /* align-items: center; */
@@ -111,8 +120,14 @@
         flex-direction: column;
 
     }
+
+    .intro-content .left .intro-para{
+        line-height: 1.8rem;
+        word-spacing: 0.5rem;
+    }
     .intro-content .right{
         flex-direction: column;
+        
     }
 
     .btn-icon1{
