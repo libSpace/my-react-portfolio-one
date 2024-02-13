@@ -45,17 +45,25 @@ function Home(){
                         <div className="intro-para">
                             <p >Java | Python | SQL | JavaScript | React | Node| Power BI | Node </p>
                         </div>
-                        <div className="btn-icon">
-                        <FaGithubSquare />
-                        <FaLinkedin />
-                        <button className="my-btn1"> Download cv</button>
 
+                        {/* Socials and a button for desktop screen */}
+                        <div className="btn-icon1">
+                            <FaGithubSquare className="soc-icons" />
+                            <FaLinkedin     className="soc-icons" />
+                            <button className="my-btn1"> Download cv</button>
                         </div>
                     </div>
                     
                     {/* Skills : right section */}
                     <div className="right">
                         <Skill  className="skill-object" />
+
+                         {/* Socials and a button for mobile screen */}
+                        <div className="btn-icon2">
+                            <FaGithubSquare className="soc-icons" />
+                            <FaLinkedin     className="soc-icons" />
+                            <button className="my-btn1"> Download cv</button>
+                        </div>
                     </div>
                          
                 </div>
