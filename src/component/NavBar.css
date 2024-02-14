@@ -111,7 +111,7 @@
     /* position: sticky; */
     align-items: center;
     flex-direction: column;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     
     position: sticky;
 
@@ -125,30 +125,25 @@
 
   .menu-wrapper {
     display: none; 
-    max-width: 100vw;
+    /* max-width: 100vw; */
     background-color: #030637;
-    /* border: yellow solid 5px; */
+   
   }
  
   .menu {
     padding: 0;
   }
   .myLogo{
-    /* padding-bottom: 0.5rem; */
     padding: 0.5rem;
     align-items: center;
     flex-direction: column;
-    border: 3px yellow solid;
-    
-    /* background-color: #8e1616;  */
+    justify-content: center;
+    /* border: 3px yellow solid; */
     position: sticky;
-
-
     background-color: #030637;
     position: sticky;
     top: 0;
     z-index: 30;
-    /* backdrop-filter: blur(50px); */
   }
 
   .nav-wrapper ul {
