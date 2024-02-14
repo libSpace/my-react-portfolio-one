@@ -81,16 +81,16 @@
     color: var(--font-color);
 }
 
-.intro-content .right{
+/* .intro-content .right{ */
     /* width: 35%; */
     /* justify-content: right;
-    text-align: right;
-    align-items: right;
-    align-content: right; */
+    /* text-align: right; */
+    /* align-items: right; */
+    /* align-content: right;  */
     /* margin-left: 2rem; */
     /* border: 3px red solid; */
     
-}
+/* } */
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 700px) {

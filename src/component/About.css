@@ -131,13 +131,16 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+        text-align: center;
 
     }
     .pic-left .fade-bottom{
-        transform: translateY(-8.15rem);
+        transform: translateY(-19rem);
         /* border: yellow solid 0.1rem; */
         align-items: center;
         justify-content: center;
         width: 19rem;
+        /* border: 0.1px red solid; */
+        margin-left: 2rem;
     }
 }
