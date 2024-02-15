@@ -27,8 +27,8 @@ function NavBar() {
           
           <div className="menu-wrapper">
             <ul className="menu">
-              <li className="menu-item">
-                <IoHomeOutline className="my-icon" />
+              <li className="menu-item" >
+                <IoHomeOutline href="#h" className="my-icon" />
               </li>
               <li className="menu-item">
                 <VscAccount className="my-icon" />

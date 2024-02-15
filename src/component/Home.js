@@ -13,7 +13,7 @@ function Home(){
     return (
         // Main section
         <>
-            <section className="home-container">
+            <section id="h" className="home-container">
                 {/* Main content */}
                 <div className="main-content">
 
