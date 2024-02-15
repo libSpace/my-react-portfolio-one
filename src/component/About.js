@@ -27,8 +27,21 @@ export default function About() {
                 I'm Malik Malope,
                 </p>
                 <p className='text'>
-                a perpetual learner on a quest for personal and professional growth. Beyond the resume, my story is shaped by a love for challenges, a commitment to adaptability, and an unwavering belief in the transformative power of continuous learning.  
-                Let's explore the boundless possibilities together!
+                a perpetual learner on an 
+                exciting quest for personal 
+                and professional growth. 
+                Beyond the confines of a 
+                resume, my narrative is 
+                intricately woven with a 
+                passion for embracing 
+                challenges, a steadfast 
+                commitment to adaptability, 
+                and an unwavering belief in 
+                the transformative power of 
+                continuous learning. 
+                Join me as we embark on a 
+                journey to explore the 
+                boundless possibilities together!
             
                 </p>            
               </div>
