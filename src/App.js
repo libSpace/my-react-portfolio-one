@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "./component/NavBar";
 import Home from "./component/Home";
 import About from "./component/About";
+import Education from "./component/Education";
 import NavBottom from "./component/NavBottom";
 // import Skill from "./component/Skill";
 
@@ -18,6 +19,7 @@ function App() {
       <div className="container">
         <Home />
         <About />
+        <Education/>
         <NavBottom/>
         {/* <Skill /> */}
       </div>

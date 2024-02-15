@@ -1,0 +1,13 @@
+.timeline{
+    border: red solid 2px;
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.timeline-container{
+    position: relative;
+    /* width: 50%; */
+    background: rgba(31, 30, 99, 0.5);
+
+}
