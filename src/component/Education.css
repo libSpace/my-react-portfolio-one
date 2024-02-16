@@ -1,5 +1,6 @@
 .timeline {
     border: red solid 0.125rem; /* 2px converted to rem */
+    border-radius: 1rem;
     position: relative;
     max-width: 75rem; /* 1200px converted to rem */
     margin: 6.25rem auto; /* 100px converted to rem */
