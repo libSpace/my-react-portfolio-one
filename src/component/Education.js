@@ -7,7 +7,8 @@ import uj from './../images/university-of-johannesburg-logo.png';
 
 export default function Education() {
   return (
-   
+    <div className='main-ed-cont'>
+        <h1 className='journey'>My journey</h1>
       <div className='timeline'>
         <div className='timeline-container left-container'>
           <img src={younglings}  alt='younglings logo'/>
@@ -78,5 +79,6 @@ export default function Education() {
         </div> 
 
       </div>
+    </div>
   )
 }
