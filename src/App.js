@@ -4,6 +4,7 @@ import NavBar from "./component/NavBar";
 import Home from "./component/Home";
 import About from "./component/About";
 import Education from "./component/Education";
+import Projects from "./component/Projects";
 import NavBottom from "./component/NavBottom";
 // import Skill from "./component/Skill";
 
@@ -17,10 +18,11 @@ function App() {
       <NavBar />
       
       <div className="container">
-        <Home />
-        <About />
-        <Education/>
-        <NavBottom/>
+        <Home       />
+        <About      />
+        <Education  />
+        <Projects   />
+        <NavBottom  />
         {/* <Skill /> */}
       </div>
       
