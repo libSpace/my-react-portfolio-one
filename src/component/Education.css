@@ -3,7 +3,7 @@
     align-items: center;
     justify-items: center;
     margin: 2.5rem;
-    margin-top: 15rem;
+    margin-top: 7rem;
     border-radius: 3rem;
 }
 
@@ -20,7 +20,7 @@
     max-width: 75rem; /* 1200px converted to rem */
     margin-left: 6.25rem; 
     margin-right: 6.25rem; 
-    margin-right: 6.25rem; 
+    /* margin-right: 6.25rem;  */
     margin-top: 1rem;
 }
 

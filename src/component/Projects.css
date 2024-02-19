@@ -1,12 +1,50 @@
-/* Css file */
+
 .proj-main-container{
+    flex-direction: column;
     align-items: center;
+    align-content: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
+    border: 8px solid red;
+    margin: 2rem;
+    margin-top: 6rem;
 }
+
+
+.sliding-text {
+    position: absolute;
+    color: #66489e;
+    animation: slideLeft 11s linear infinite; 
+    font-size: 11rem;
+    width: auto;
+    letter-spacing: 3rem;
+    opacity: 0.5;
+
+    
+}
+
+
+@keyframes slideLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+
 .proj-main-container .proj-head{
     text-decoration: underline;
+    font-size: 3.5rem;
+}
+.proj-main-container .proj-para{
+    justify-content: center;
+    margin: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
 }
 
 .pro-wrapper{
@@ -33,8 +71,8 @@
 }
 
 .image-cube{
-    height: 19rem;
-    width: 19rem;
+    height: 18rem;
+    width: 18rem;
     transform-style: preserve-3d;
     position: relative;
     transition: 3s;
@@ -44,12 +82,14 @@
     width: 19rem;
     height:19rem;
     position: absolute;
+    
 }
 
 img{
     width: 100%;
     transform: translateZ(0);
-
+    border: #d8b1e0 solid 2px;
+    border-radius: 0.4rem;
 }
 
 .proj-front{
@@ -78,7 +118,8 @@ img{
 .proj-btns button{
     background-color: transparent;
     color: #c191c2;
-    border: 3px solid #030637;
+    /* border: 3px solid #030637; */
+    border:none;
     border-radius: 50%;
     font-size: 3rem;
     cursor: pointer;

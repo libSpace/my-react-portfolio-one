@@ -21,6 +21,7 @@ function App() {
         <Home       />
         <About      />
         <Education  />
+      
         <Projects   />
         <NavBottom  />
         {/* <Skill /> */}

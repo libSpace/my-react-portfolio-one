@@ -40,6 +40,15 @@ export default function Projects() {
   return (
     <div className='proj-main-container'>
       <h1 className='proj-head'>Check out some of my projects</h1>
+      <p className='proj-para'>I've had the opportunity to lead the development of various 
+        projects from inception to completion, employing a full tech stack. 
+        These experiences have not only enhanced my technical proficiency 
+        but also ignited my enthusiasm for creating innovative and 
+        robust solutions</p>
+        <div className="slider-container">
+          <div className="sliding-text"><h1><strong>PASSION</strong></h1></div>
+         
+        </div>
       <div className='pro-wrapper'>
         <div className='pro-container'>
           <div className='image-cube' ref={cubeRef}>
