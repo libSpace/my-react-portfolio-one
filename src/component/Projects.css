@@ -1,13 +1,25 @@
-.pro-wrapper{
+/* Css file */
+.proj-main-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border: 1px solid red;
-    height: 300px;
-    width: 300px;
+}
+.proj-main-container .proj-head{
+    text-decoration: underline;
+}
+
+.pro-wrapper{
+    
+    height: 19rem;
+    width: 19rem;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     /* top: 0; */
-    /* bottom: 0; */
+    /* bottom: -30rem; */
+    transform: translateY(5rem);
 }
 
 .pro-container{
@@ -16,25 +28,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 800px;
+    perspective: 500px;
     perspective-origin: 50%;
 }
 
 .image-cube{
-    height: 300px;
-    width: 300px;
+    height: 19rem;
+    width: 19rem;
     transform-style: preserve-3d;
     position: relative;
-    /* transform: rotateY(-270deg); */
+    transition: 3s;
+    /* transform: rotateY(50deg); */
 }
 .image-cube div{
-    width: 300px;
-    height:300px;
+    width: 19rem;
+    height:19rem;
     position: absolute;
 }
 
 img{
     width: 100%;
+    transform: translateZ(0);
 
 }
 
@@ -54,4 +68,43 @@ img{
 .proj-left{
     transform: rotateY(270deg) translateX(-150px);
     transform-origin: 0 50%;
+}
+.proj-btns{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj-btns button{
+    background-color: transparent;
+    color: #c191c2;
+    border: 3px solid #030637;
+    border-radius: 50%;
+    font-size: 3rem;
+    cursor: pointer;
+    transform: translateY(-8.9rem);
+    
+}
+.proj-btns button:hover{
+    color: #d8b1e0;
+}
+
+.proj-btns button .proj-prev-icon,
+.proj-btns button .proj-next-icon {
+    transition: all 0.34s ease-in-out; /* You can adjust the duration and timing function as needed */
+}
+
+.proj-btns button .proj-prev-icon:hover{
+    border-radius: 50px;
+    /* border: red solid 2px; */
+    box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
+}
+.proj-btns button .proj-next-icon:hover{
+    border-radius: 50px;
+    /* border: red solid 2px; */
+    box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
+}
+
+@media only screen and (max-width: 700px){
+
 }
