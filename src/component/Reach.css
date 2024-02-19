@@ -1,0 +1,7 @@
+.each-container{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 3px red;
+}

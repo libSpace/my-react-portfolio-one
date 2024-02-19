@@ -46,7 +46,7 @@ export default function Projects() {
         but also ignited my enthusiasm for creating innovative and 
         robust solutions</p>
         <div className="slider-container">
-          <div className="sliding-text"><h1><strong>PASSION</strong></h1></div>
+          <div className="sliding-text"><h1><strong>PASSION</strong><span className='transparent'>hh</span></h1></div>
          
         </div>
       <div className='pro-wrapper'>

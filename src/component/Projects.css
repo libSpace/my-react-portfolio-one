@@ -12,21 +12,26 @@
 /* Animation for sliding text */
 .sliding-text {
     position: absolute;
+    overflow-x: hidden;
     color: #66489e;
-    animation: slideLeft 11s linear infinite;
+    animation: slideLeft 8s linear infinite;
     font-size: 11rem;
-    letter-spacing: 3rem;
+    /* letter-spacing: 3rem; */
     opacity: 0.5;
-    width: 85%;
+    bottom: 16rem;
+    /* left: 0; */
     margin: 2rem;
+    .transparent{
+        opacity: 0;
+    }
 }
 
 @keyframes slideLeft {
     0% {
-        transform: translateX(100%);
-    }
-    100% {
         transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
     }
 }
 
