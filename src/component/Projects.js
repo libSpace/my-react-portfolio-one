@@ -52,28 +52,28 @@ export default function Projects() {
       <div className='pro-wrapper'>
         <div className='pro-container'>
           <div className='image-cube' ref={cubeRef}>
-            <div className='proj-front'>
-              <img src={project1} alt='cartalogue1' />
+            <div id='proj-pic' className='proj-front'>
+              <img className='proj-img' src={project1} alt='cartalogue1' />
             </div>
 
-            <div className='proj-right'>
-              <img src={project2} alt='cartalogue2' />
+            <div id='proj-pic' className='proj-right'>
+              <img className='proj-img' src={project2} alt='cartalogue2' />
             </div>
 
-            <div className='proj-back'>
-              <img src={project3} alt='cartalogue3' />
+            <div id='proj-pic' className='proj-back'>
+              <img className='proj-img' src={project3} alt='cartalogue3' />
             </div>
 
-            <div className='proj-left'>
-              <img src={project4} alt='cartalogue4' />
+            <div id='proj-pic' className='proj-left'>
+              <img className='proj-img' src={project4} alt='cartalogue4' />
             </div>
           </div>
         </div>
         <div className='proj-btns'>
-          <button id='proj-prev'>
+          <button className='proj-buttons' id='proj-prev'>
             <CiCircleChevLeft className='proj-prev-icon' />
           </button>
-          <button id='proj-next'>
+          <button className='proj-buttons' id='proj-next'>
             <CiCircleChevRight className='proj-next-icon' />
           </button>
         </div>

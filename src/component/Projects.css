@@ -1,151 +1,167 @@
-
-.proj-main-container{
+/* General styling for the main container */
+.proj-main-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: center;
     text-align: center;
-    border: 8px solid red;
-    margin: 2rem;
-    margin-top: 6rem;
+    border: 0.5rem solid red;
+    margin: 6rem 2rem 2rem;
 }
 
-
+/* Animation for sliding text */
 .sliding-text {
     position: absolute;
     color: #66489e;
-    animation: slideLeft 11s linear infinite; 
+    animation: slideLeft 11s linear infinite;
     font-size: 11rem;
-    width: auto;
     letter-spacing: 3rem;
     opacity: 0.5;
-
-    
 }
-
 
 @keyframes slideLeft {
     0% {
-      transform: translateX(100%);
+        transform: translateX(100%);
     }
     100% {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-  }
-  
-  
+}
 
-.proj-main-container .proj-head{
+/* Styling for project heading */
+.proj-main-container .proj-head {
     text-decoration: underline;
     font-size: 3.5rem;
 }
-.proj-main-container .proj-para{
-    justify-content: center;
-    margin: 2rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
 
+/* Styling for project paragraph */
+.proj-main-container .proj-para {
+    margin: 2rem;
+    padding: 0 10rem;
+    justify-content: center;
 }
 
-.pro-wrapper{
-    
+/* Styling for the cube and its components */
+.pro-wrapper {
     height: 19rem;
     width: 19rem;
-    position: absolute;
+    /* position: absolute; */
     margin: auto;
     left: 0;
     right: 0;
-    /* top: 0; */
-    /* bottom: -30rem; */
-    transform: translateY(5rem);
+    transform: translateY(5.2rem);
 }
 
-.pro-container{
+.pro-container {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 500px;
+    perspective: 31.25rem;
     perspective-origin: 50%;
 }
 
-.image-cube{
+.image-cube {
     height: 18rem;
     width: 18rem;
     transform-style: preserve-3d;
     position: relative;
     transition: 3s;
-    /* transform: rotateY(50deg); */
-}
-.image-cube div{
-    width: 19rem;
-    height:19rem;
-    position: absolute;
-    
 }
 
-img{
+.image-cube #proj-pic {
+    width: 19rem;
+    height: 19rem;
+    position: absolute;
+}
+
+.proj-img {
     width: 100%;
     transform: translateZ(0);
-    border: #d8b1e0 solid 2px;
     border-radius: 0.4rem;
 }
 
-.proj-front{
-    transform: translateZ(150px);
+.proj-front {
+    transform: translateZ(9.375rem);
 }
 
-.proj-right{
-    transform: rotateY(-270deg) translateX(150px);
+.proj-right {
+    transform: rotateY(-270deg) translateX(9.375rem);
     transform-origin: 100% 0;
 }
 
-.proj-back{
-    transform: translateZ(-150px) rotateY(180deg);
-
+.proj-back {
+    transform: translateZ(-9.375rem) rotateY(180deg);
 }
-.proj-left{
-    transform: rotateY(270deg) translateX(-150px);
+
+.proj-left {
+    transform: rotateY(270deg) translateX(-9.375rem);
     transform-origin: 0 50%;
 }
-.proj-btns{
-    margin-top: 80px;
+
+/* Styling for project buttons */
+.proj-btns {
+    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
 }
 
-.proj-btns button{
+.proj-btns .proj-buttons {
     background-color: transparent;
     color: #c191c2;
-    /* border: 3px solid #030637; */
-    border:none;
+    border: none;
     border-radius: 50%;
     font-size: 3rem;
     cursor: pointer;
     transform: translateY(-8.9rem);
-    
 }
-.proj-btns button:hover{
+
+.proj-btns .proj-buttons:hover {
     color: #d8b1e0;
 }
 
-.proj-btns button .proj-prev-icon,
-.proj-btns button .proj-next-icon {
-    transition: all 0.34s ease-in-out; /* You can adjust the duration and timing function as needed */
+.proj-btns .proj-buttons .proj-prev-icon,
+.proj-btns .proj-buttons .proj-next-icon {
+    transition: all 0.34s ease-in-out;
 }
 
-.proj-btns button .proj-prev-icon:hover{
-    border-radius: 50px;
-    /* border: red solid 2px; */
-    box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
-}
-.proj-btns button .proj-next-icon:hover{
-    border-radius: 50px;
-    /* border: red solid 2px; */
+.proj-btns .proj-buttons .proj-prev-icon:hover,
+.proj-btns .proj-buttons .proj-next-icon:hover {
+    border-radius: 3.125rem;
     box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
 }
 
-@media only screen and (max-width: 700px){
+/* Responsive styling for smaller screens */
+@media only screen and (max-width: 700px) {
+    /* Styling for project heading */
+    .proj-main-container .proj-head {
+        text-decoration: underline;
+        font-size: 1.75rem;
+    }
+    /* Styling for project paragraph */
+    .proj-main-container .proj-para {
+        /* margin: 2rem; */
+        /* padding: 0 10rem; */
+        justify-content: center;
+    }
 
+    .sliding-text {
+        position: absolute;
+        color: #66489e;
+        animation: slideLeft 8s linear infinite;
+        font-size: 5.5rem;
+        letter-spacing: 1.5rem;
+        opacity: 0.5;
+    }
+    
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+   
 }

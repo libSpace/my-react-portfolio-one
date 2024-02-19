@@ -21,12 +21,11 @@ function App() {
         <Home       />
         <About      />
         <Education  />
-      
-        <Projects   />
-        <NavBottom  />
+        
         {/* <Skill /> */}
       </div>
-      
+      <Projects   />
+      <NavBottom  />
     </div>
   );
 }
