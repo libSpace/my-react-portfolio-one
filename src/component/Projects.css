@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 0.5rem solid red;
+    /* border: 0.5rem solid red; */
     margin: 6rem 2rem 2rem;
 }
 
@@ -17,6 +17,8 @@
     font-size: 11rem;
     letter-spacing: 3rem;
     opacity: 0.5;
+    width: 85%;
+    margin: 2rem;
 }
 
 @keyframes slideLeft {
@@ -134,34 +136,65 @@
 
 /* Responsive styling for smaller screens */
 @media only screen and (max-width: 700px) {
+    .proj-main-container{
+        margin-bottom: 21rem;
+        border: none;
+    }
+
     /* Styling for project heading */
     .proj-main-container .proj-head {
         text-decoration: underline;
         font-size: 1.75rem;
+        
     }
     /* Styling for project paragraph */
     .proj-main-container .proj-para {
         /* margin: 2rem; */
         /* padding: 0 10rem; */
+        padding: 0;
         justify-content: center;
+        font-size: 0.5rem;
     }
 
     .sliding-text {
-        position: absolute;
-        color: #66489e;
-        animation: slideLeft 8s linear infinite;
-        font-size: 5.5rem;
-        letter-spacing: 1.5rem;
-        opacity: 0.5;
+        display: none;  
     }
     
-    @keyframes slideLeft {
+    /* @keyframes slideLeft {
         0% {
-            transform: translateX(100%);
+            transform: translateX(60%);
         }
         100% {
-            transform: translateX(-100%);
+            transform: translateX(-60%);
         }
-    }
+    } */
    
+
+
+    .pro-container {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        perspective: 100.25rem;
+        perspective-origin: 50%; /* Adjusted to 50% for centering */
+      }
+    .proj-btns .proj-buttons {
+        transform: none; /* Reset translateY for buttons */
+        margin-bottom: 1rem; /* Add margin between buttons */
+        transform: translateY(-10rem);
+    }
+
+    .pro-wrapper {
+        height: 19rem;
+        width: 19rem;
+        /* position: absolute; */
+        margin: auto;
+        left: 0;
+        right: 0;
+        transform: translateY(1rem);
+
+    }
 }
