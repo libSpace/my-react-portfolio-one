@@ -11,6 +11,7 @@
 
 /* Animation for sliding text */
 .sliding-text {
+    display: none;
     position: absolute;
     overflow-x: hidden;
     color: #66489e;
@@ -21,9 +22,6 @@
     bottom: 16rem;
     /* left: 0; */
     margin: 2rem;
-    .transparent{
-        opacity: 0;
-    }
 }
 
 @keyframes slideLeft {

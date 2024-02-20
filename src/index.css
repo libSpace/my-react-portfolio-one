@@ -6,6 +6,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   animation: smoothScroll 1s ease-in-out;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 /* Define the animation */
 @keyframes smoothScroll {
@@ -20,9 +24,16 @@
 }
 
 body {
-  /*border: red solid 2px;*/
+  border: red solid 2px;
   color: #fff;
   background-color: #030637;
-  padding: 0.8rem;
-  /*margin: 0.8rem;*/
+  /* padding: 0.8rem; */
+  /* margin: 0.95rem; */
+  margin-bottom: 0.95rem;
+  margin-left: 0.95rem;
+  margin-right: 0.95rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
 }
