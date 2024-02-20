@@ -73,12 +73,6 @@ export default function Reach() {
                 onChange={handleInput}/>
                 {errors.message && <p style={{color:"red"}}>{errors.message}</p>}
             </div>
-            {/* <button class="g-recaptcha"
-              data-sitekey="6LfCCngpAAAAAIY6K5cKTjHj-JNE3GmYbQrD0Ewo"
-              data-callback='onSubmit'
-              data-action='submit'>
-              Submit
-            </button> */}
             <ReCAPTCHA className='capcha' sitekey="6Lc0zXcpAAAAACZhNyaHzJ-xqBg_QdQ_m93TZKA8"/>
               {/* onChange={handleCaptchaChange} */}
             <button className='reach-btn'>Submit</button>
@@ -94,41 +88,41 @@ export default function Reach() {
             <FaLinkedin     className="reach-soc-icons" />
           </div>
         </div>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </>
   )
