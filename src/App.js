@@ -7,6 +7,7 @@ import Education from "./component/Education";
 import Projects from "./component/Projects";
 import Reach from "./component/Reach";
 import NavBottom from "./component/NavBottom";
+
 // import Skill from "./component/Skill";
 
 // App styling
@@ -15,6 +16,7 @@ import "./App.css"
 
 function App() {
   return (
+    
     <div className="App">
       <NavBar />
       
