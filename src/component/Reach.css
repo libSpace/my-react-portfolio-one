@@ -1,3 +1,4 @@
+
 .reach-container {
     margin: 3.75rem; /* 60px converted to rem */
     position: relative;
@@ -54,14 +55,16 @@ form {
     font-size: 0.75rem; /* 12px converted to rem */
 }
 
-.inputBox.error input,
-.inputBox.error textarea {
+.inputBox.errors input,
+.inputBox.errors textarea {
     border-bottom: 3.4px solid red;
 }
-.inputBox:not(.error) input:focus,
-.inputBox:not(.error) textarea:focus {
+
+.inputBox:not(.errors) input:focus,
+.inputBox:not(.errors) textarea:focus {
     border-bottom: 3.4px solid green;
 }
+
 .inputBox textarea{
     resize: none;
     height: 9rem; /* 10rem converted to rem */
