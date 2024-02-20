@@ -7,7 +7,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { useState } from 'react';
-
+// import emailjs from 'emailjs-com';
 
 
 
@@ -23,15 +23,40 @@ export default function Reach() {
   function handleInput(event){
     const newObj = {...values, [event.target.name]: event.target.value}
     setValues(newObj)
+
+    // // Email ks serviceID , templateID, and public key
+    // const serviceID = "service_8h7egp3";
+    // const templateID = "template_yjjp0mr";
+    // const publicKey = "9uh1U_4h3RWE2rxUd";
+  
+    // // creating a new object that contains dynamic template parameters
+    // const tempParams = {
+    //   name: values.name,
+    //   email: values.email,
+    //   message: values.message,
+    // };
+  
+    // emailjs.send(serviceID, templateID, tempParams, publicKey)
+    // .then((response) => {
+    //   console.log("Email sent successfully!", response);
+    //   setValues({
+    //     name: '',
+    //     email: '',
+    //     message: '',
+    //   });
+    // });
+    
   }
-  function handleValidation(event){
+  function handleValidation(event) {
     event.preventDefault();
     setErrors(Validation(values));
+ 
   }
+  
 
   return (
     <>
-      <div className='reach-container'>
+      <div id='#contact' className='reach-container'>
         <div className='reach-left'>
           <h3 className='reach-heading'>Get in touch</h3>
           <p className='reach-text'>Contact me for any project or anyy oportunity you have for me</p>
@@ -46,7 +71,10 @@ export default function Reach() {
                 name='name' 
                 className='name' 
                 placeholder='Enter your name'
-                onChange={handleInput}/>
+                // onSubmit={}
+                onChange={handleInput}
+               
+                />
                 {errors.name && <p style={{color:"red"}}>{errors.name}</p>}
             </div>
             <div className='inputBox'>

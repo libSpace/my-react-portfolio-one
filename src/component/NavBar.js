@@ -41,7 +41,7 @@ function NavBar() {
                 <GrProjects className="my-icon" />
               </li>
               <li className="menu-item">
-                <MdOutlineAttachEmail className="my-icon" />
+                <a href="#contact"><MdOutlineAttachEmail className="my-icon" /></a>
               </li>
             </ul>
           </div>
