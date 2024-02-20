@@ -31,6 +31,9 @@
     font: bold;
     line-height: 6rem;
 }
+.intro-line{
+    width: 95%;
+}
 
 .intro-content{
     display: flex;
@@ -63,12 +66,12 @@
     width: 7rem;
     border-radius: 0.4rem;
     font-weight: bolder;
+    border: none;
     
 }
 .btn-icon1 .my-btn1:hover{
     background-color: var(--font-color);
     font-weight: bolder;
-    color: white;
 }
 
 .btn-icon2{
@@ -101,13 +104,21 @@
         align-items: center;
         justify-content: center;
         display: flex;
-        
-        
-
+        padding: 0;
+        margin: 0; /* Remove margin */
+       
+    }
+    .intro{
+        margin: 0;
+        margin-bottom: 1rem;
     }
     .intro h1{
+        margin: 0;
         font-size: 2.2rem;
         line-height: 2rem;
+        padding: 0;
+        width: 100%;
+        border: 2px green solid;
     }
     .left-content h1{
         line-height: 2rem;
