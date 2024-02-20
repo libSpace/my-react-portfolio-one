@@ -54,9 +54,21 @@ form {
     font-size: 0.75rem; /* 12px converted to rem */
 }
 
-.inputBox textarea {
+.inputBox.error input,
+.inputBox.error textarea {
+    border-bottom: 3.4px solid red;
+}
+.inputBox:not(.error) input:focus,
+.inputBox:not(.error) textarea:focus {
+    border-bottom: 3.4px solid green;
+}
+.inputBox textarea{
     resize: none;
     height: 9rem; /* 10rem converted to rem */
+}
+.inputBox .err-msg{
+    font-size: 10px;
+    color: red;
 }
 
 .reach-btn {
