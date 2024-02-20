@@ -40,8 +40,8 @@ export default function Reach() {
             <div className='inputBox'>
               <input  
                 style={{
-                  borderBottom: errors.name ? "3px solid red" : "3px solid green"
-                }} 
+                  boxShadow: errors.name ? "0 0 1rem rgba(255, 0, 0, 0.5)" :"0 0 1rem rgba(0, 128, 0, 0.5)"
+                  }} 
                 type='text' 
                 name='name' 
                 className='name' 
@@ -52,8 +52,8 @@ export default function Reach() {
             <div className='inputBox'>
               <input 
                 style={{
-                  borderBottom: errors.email ? "3px solid red" : "3px solid green"
-                }} 
+                  boxShadow: errors.email ? "0 0 1rem rgba(255, 0, 0, 0.5)" :"0 0 1rem rgba(0, 128, 0, 0.5)"
+                  }} 
                 type='text' 
                 name='email' 
                 className='email' 
@@ -64,7 +64,7 @@ export default function Reach() {
             <div className='inputBox'>
               <textarea 
                 style={{
-                  borderBottom: errors.message ? "3px solid red" : "3px solid green"
+                boxShadow: errors.message ? "0 0 1rem rgba(255, 0, 0, 0.5)" :"0 0 1rem rgba(0, 128, 0, 0.5)"
                 }} 
                 type='text' 
                 name='message' 
