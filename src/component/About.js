@@ -24,7 +24,7 @@ export default function About() {
                   Hello, curious minds! 
                 </p>
                 <p className='text'>
-                I'm Malik Malope,
+                I'm <span className='my-about-name'>Malik Malope</span>,
                 </p>
                 <p className='text'>
                 a perpetual learner on an 
@@ -57,6 +57,8 @@ export default function About() {
             <div className='div-box'></div>
             <div className='div-box'></div>
             <div className='div-box'></div>
+           
+            
             {/* <div></div>
             <div></div>
             <div></div>
