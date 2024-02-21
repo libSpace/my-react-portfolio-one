@@ -63,6 +63,7 @@
     border-bottom-right-radius: 3rem;
     box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
     animation: openAnimation 0.9s ease-in-out;
+    
 }
 .abt-content{
     display: flex;
@@ -88,17 +89,17 @@
     height: 15rem;
     margin: 2rem;
     /* margin-top: 6rem; */
-    transform: translateY(4rem);
+    /* transform: translateY(4rem); */
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     box-shadow: 0 0 2rem rgba(228, 135, 229, 0.1);
-    transition: box-shadow 0.5s ease-in-out;
-    transition: background-color 0.6s ease-in-out;
+    /* transition: box-shadow 0.5s ease-in-out; */
+    /* transition: background-color 0.6s ease-in-out; */
 }
 
 .text-right:hover{
     box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
-    animation: ease-in;
+    /* animation: ease-in; */
     background-color: #1f1e63;
     transition: background-color 0.4s ease-in-out;
 }
@@ -106,61 +107,64 @@
     justify-content: center;
     text-align: center;
 }
+.box{
+    border: green solid 2px;
+}
 
-
-.box div{
+.box .div-box{
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
     background-color: transparent;
     border: 6px solid rgba(255,255,255,0.8);
 }
-.box div:nth-child(1){
+.box .div-box:nth-child(1){
     top: 12%;
     left: 42%;
     animation: animate 10s linear infinite;
 }
-.box div:nth-child(2){
+.box .div-box:nth-child(2){
     top: 70%;
     left: 50%;
     animation: animate 7s linear infinite;
 }
-.box div:nth-child(3){
+.box .div-box:nth-child(3){
     top: 17%;
     left: 6%;
     animation: animate 9s linear infinite;
 }
-.box div:nth-child(4){
+.box .div-box:nth-child(4){
     top: 20%;
     left: 60%;
     animation: animate 10s linear infinite;
 }
-.box div:nth-child(5){
+.box .div-box:nth-child(5){
     top: 67%;
     left: 10%;
     animation: animate 6s linear infinite;
 }
-.box div:nth-child(6){
+.box .div-box:nth-child(6){
     top: 80%;
     left: 7%;
     animation: animate 12s linear infinite;
 }
-.box div:nth-child(7){
+.box .div-box:nth-child(7){
     top: 60%;
     left: 80%;
     animation: animate 15s linear infinite;
 }
-.box div:nth-child(8){
+.box .div-box:nth-child(8){
     top: 32%;
     left: 25%;
     animation: animate 16s linear infinite;
 }
-.box div:nth-child(9){
+.box .div-box:nth-child(9){
     top: 91%;
     left: 25%;
     animation: animate 9s linear infinite;
 }
-.box div:nth-child(10){
+.box .div-box:nth-child(10){
     top: 20%;
     left: 80%;
     animation: animate 5s linear infinite;
@@ -178,15 +182,33 @@
 }
 /* Mobile */
 @media only screen and (max-width: 700px) {
+    
+    .about{
+        height: 42.6rem;
+    }
     .about-container{ 
       margin: 1.8rem;
-    } 
-    .abt-content{
+      
+    }
+    .abt-head{
+        align-content: center;
+        justify-content: center;
+        flex-direction: column; 
         
+            h1{
+                text-decoration: underline;
+                font-size: 3.5rem;
+                
+            }
+        }
+    .abt-content{
+        /* border: yellow 2px solid; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
         align-content: center;
+        padding-top: -5rem;
+
     }
     .pic-left{
         flex-direction: column;
@@ -195,21 +217,16 @@
         align-content: center;
         text-align: center;
         opacity: 0.5;
-        /* transform: translateY(0rem); */
+        transform: translateY(-3.9rem);
 
     }
     .pic-left .fade-bottom{
-        transform: translateY(-19rem);
-        /* border: yellow solid 0.1rem; */
         align-items: center;
         justify-content: center;
         width: 19rem;
-        /* border: 0.1px red solid; */
-        /* margin-left: 2rem; */
+        transform: translateY(0rem);
     }
     .abt-head{
-        /* border: red solid 3px; */
-        /* align-items: center;*/
         align-content: center;
         justify-content: center;
         flex-direction: column; 
@@ -221,21 +238,19 @@
         .text-right{
             width: 16rem;
             height: 27rem;
-            /* margin: 2rem; */
-            /* margin-top: 6rem; */
-            transform: translateY(-13rem);
+            transform: translateY(-20rem);
             border-top-left-radius: 2rem;
             border-bottom-right-radius: 2rem;
             background-color: rgba(3, 6, 55, 0.7);
             box-shadow: 0 0 2rem rgba(228, 135, 229, 0.1);
             transition: box-shadow 0.5s ease-in-out;
-            transition: background-color 0.6s ease-in-out;
         }
 
         .text-right:hover{
             box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
-            animation: ease-in;
+            
             background-color: #1f1e63;
             transition: background-color 0.4s ease-in-out;
+            transition: background-color 0.4s ease-out;
         }
 }

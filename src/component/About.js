@@ -47,6 +47,17 @@ export default function About() {
               </div>
           </div>
           <div className='box'>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            <div className='div-box'></div>
+            {/* <div></div>
             <div></div>
             <div></div>
             <div></div>
@@ -54,9 +65,7 @@ export default function About() {
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div></div> */}
           </div>
         </div>
       </div>
