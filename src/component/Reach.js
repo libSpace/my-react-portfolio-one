@@ -24,27 +24,7 @@ export default function Reach() {
     const newObj = {...values, [event.target.name]: event.target.value}
     setValues(newObj)
 
-    // // Email ks serviceID , templateID, and public key
-    // const serviceID = "service_8h7egp3";
-    // const templateID = "template_yjjp0mr";
-    // const publicKey = "9uh1U_4h3RWE2rxUd";
-  
-    // // creating a new object that contains dynamic template parameters
-    // const tempParams = {
-    //   name: values.name,
-    //   email: values.email,
-    //   message: values.message,
-    // };
-  
-    // emailjs.send(serviceID, templateID, tempParams, publicKey)
-    // .then((response) => {
-    //   console.log("Email sent successfully!", response);
-    //   setValues({
-    //     name: '',
-    //     email: '',
-    //     message: '',
-    //   });
-    // });
+    
     
   }
   function handleValidation(event) {
@@ -71,7 +51,6 @@ export default function Reach() {
                 name='name' 
                 className='name' 
                 placeholder='Enter your name'
-                // onSubmit={}
                 onChange={handleInput}
                
                 />
