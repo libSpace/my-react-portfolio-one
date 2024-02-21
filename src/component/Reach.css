@@ -1,6 +1,7 @@
 
 .reach-container {
-    margin: 3.75rem; /* 60px converted to rem */
+    margin: 3rem; /* 60px converted to rem */
+    margin-top: 1.9rem;
     position: relative;
     padding: 2.5rem; /* 40px converted to rem */
     display: flex;
@@ -81,19 +82,19 @@ form {
     font-size: 1rem; /* 16px converted to rem */
     font-weight: 600;
     border: none;
-    color: #c191c2;
     border-radius: 0.3125rem; /* 5px converted to rem */
     cursor: pointer;
     transition: 0.5s;
 }
-
+.reach-btn:active {
+    background-color:  #E487E5;
+}
 .reach-right .illustration .reach-image {
     width: 25rem; /* 21px converted to rem */
 }
 
 .reach-socials {
     text-align: center;
-    border: red solid 0.3rem;
 }
 
 .reach-socials .reach-soc-icons {
@@ -478,34 +479,27 @@ form {
     box-shadow: -6vmin 0 0.7597775879869546vmin currentColor;
 }
 
-
-/* Mobile responsiveness  */
 /* Mobile responsiveness */
-@media (max-width: 43.75rem) {
+@media (max-width: 700px) {
     /* 700px converted to rem */
     .reach-container {
         flex-direction: column;
-        gap: 2.5rem; /* 40px converted to rem */
-        border: red solid 3px;
+        gap: 2.5rem; 
+        border: #e0d6ec solid 3px;
         width: 85%;
         align-items: center;
         align-content: center;
         justify-content: center;
-        margin: 0 auto; /* Center the container horizontally */
+        margin: 2.5rem auto;     
+    }
+    .reach-container:hover {
+    border: #c191c2 solid 3px;
     }
 
     .reach-left,
     .reach-right {
         width: 100%;
         margin: 0.1rem;
-    }
-
-    .main-reach {
-        background-color: red;
-    }
-
-    .capcha {
-        width: 1rem;
     }
 
     .reach-right .illustration .reach-image {
