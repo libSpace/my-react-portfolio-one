@@ -7,6 +7,10 @@ import Education from "./component/Education";
 import Projects from "./component/Projects";
 import Reach from "./component/Reach";
 import NavBottom from "./component/NavBottom";
+// 
+import { BrowserRouter as Router,Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+
+
 
 // import Skill from "./component/Skill";
 
@@ -16,21 +20,36 @@ import "./App.css"
 
 function App() {
   return (
-    
-    <div className="App">
-      <NavBar />
-      
-      <div className="container">
-        <Home       />
-        <About      />
-        <Education  />
-        <Projects   />
-        <Reach  />
+    <Router>
+      <div className="App">
+        <NavBar />
+        <div className="container">
+          <Switch>
+            <Route exact path="/">
+              <Home       />
+            </Route >
+
+            <Route path="/About">
+              <About      />
+            </Route>
+
+            <Route path="/Education">
+              <Education      />
+            </Route>
+
+            <Route path="/Projects">
+              <Projects   />
+            </Route>
+
+            <Route path="/Reach">
+              <Reach  />
+            </Route>
+
+          </Switch>
+        </div>
         <NavBottom  />
-        {/* <Skill /> */}
       </div>
-     
-    </div>
+    </Router>
   );
 }
 

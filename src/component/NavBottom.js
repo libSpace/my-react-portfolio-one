@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+
 /* Icon libraries
 #################*/
 
@@ -26,20 +28,30 @@ function NavBottom() {
           
           <div className="menu-bot-wrapper">
             <ul className="menu">
-              <li className="menu-item">
-                <IoHomeOutline className="my-icon" />
+            <li className="menu-item" >
+                <Link to="/" >
+                  <IoHomeOutline className="my-icon" />
+                </Link>
               </li>
               <li className="menu-item">
-                <VscAccount className="my-icon" />
+                <Link to="/About" >
+                  <VscAccount className="my-icon" />
+                </Link>
               </li>
               <li className="menu-item">
-                <FiBookOpen className="my-icon" />
+                <Link to="/Education">
+                 <FiBookOpen className="my-icon" />
+                </Link>
               </li>
               <li className="menu-item">
-                <GrProjects className="my-icon" />
+                <Link to="/Projects" >
+                  <GrProjects className="my-icon" />
+                </Link>
               </li>
               <li className="menu-item">
-                <MdOutlineAttachEmail className="my-icon" />
+                <Link to="/Reach" >
+                  <MdOutlineAttachEmail className="my-icon" />
+                </Link>
               </li>
             </ul>
           </div>
