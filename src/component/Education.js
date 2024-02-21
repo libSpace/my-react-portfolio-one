@@ -72,7 +72,6 @@ export default function Education() {
               <li>Participated in academic and extracurricular activities</li>
               <li>Developed a solid foundation in mathematical principles and statistical analysis</li>
               <li>Collaborated with peers on group projects and assignments</li>
-              <li>Acquired analytical and problem-solving skills through the study of mathematical concepts</li>
             </ul>
             <span className='right-cont-arrow'></span>
           </div>
