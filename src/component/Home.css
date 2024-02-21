@@ -1,13 +1,11 @@
 :root {
     --font-color: #E487E5; /*font color*/
- }
+}
 
 
 .home-container{
-    /* display: flex; */
-    /* border: 3px dotted red; */
     margin: 2rem;
-    /* animation: fade-in 1s ease 1 0.5s forwards; */
+    animation: fade-in 1s ease 1 0.5s forwards;
     
     
 }
@@ -17,13 +15,11 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    /* border: yellow solid 3px; */
 }
 .intro{
     justify-content: center;
     align-content: center;
     text-align: center;
-    /* border: 3px solid white;  */
     margin: 4rem;
 }
 .intro h1{
@@ -43,8 +39,6 @@
     width: 55%;
     text-align: center;
     line-height: 5rem;
-    /* border: 3px red solid; */
-    
 }
 
 /* My social icons and a download cv button */
@@ -84,17 +78,6 @@
     color: var(--font-color);
 }
 
-/* .intro-content .right{ */
-    /* width: 35%; */
-    /* justify-content: right;
-    /* text-align: right; */
-    /* align-items: right; */
-    /* align-content: right;  */
-    /* margin-left: 2rem; */
-    /* border: 3px red solid; */
-    
-/* } */
-
 /* Media query for mobile devices */
 @media only screen and (max-width: 700px) {
 
@@ -118,14 +101,12 @@
         line-height: 2rem;
         padding: 0;
         width: 100%;
-        border: 2px green solid;
     }
     .left-content h1{
         line-height: 2rem;
     }
    .intro-content .left{
-        /* align-items: center; */
-        /* border: red solid 3px; */
+    
         width: 80%;
         align-items: center;
         flex-direction: column;

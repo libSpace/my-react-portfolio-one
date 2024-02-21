@@ -1,8 +1,7 @@
 
 
 .cont .logo-skill {
-    position: relative; /* Change from inherit to relative */
-    /* margin: -25px; */
+    position: relative; 
     height: 17rem;
     width: 17rem;
     display: flex;
@@ -11,8 +10,7 @@
     align-content: center;
     border-radius: 50%;
     user-select: none;
-    /* padding-left: 45%; */
-    /* padding-top: 25%; */
+  
 }
 
 .cont .logo-skill .main-img {
@@ -183,7 +181,6 @@
         animation: fade-in 1s ease 1 0.5s forwards;
     }
     .cont{
-        background-color: red;
         align-items: center;
         align-content: center;
         justify-content: center;

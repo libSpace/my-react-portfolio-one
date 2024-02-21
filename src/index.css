@@ -6,7 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   animation: smoothScroll 1s ease-in-out;
-  /* flex-direction: column; */
+  user-select: none;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -24,7 +24,6 @@
 }
 
 body {
-  border: red solid 2px;
   color: #fff;
   background-color: #030637;
   /* padding: 0.8rem; */
