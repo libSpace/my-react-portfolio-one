@@ -21,7 +21,7 @@ function Home(){
                     <div className="intro">
                     <h1>
                         <strong>
-                        Welcome to a world of innovation and creativity!
+                        Welcome to a worlds of innovation and creativity!
                         </strong>
                     </h1>
                     </div>
