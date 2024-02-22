@@ -12,6 +12,30 @@ import { useState } from 'react';
 
 
 export default function Reach() {
+
+  // function downloadCv() {
+  //   const link = document.createElement('a');
+  //   link.href = '../resume/Malik\'s Resume.pdf';
+  //   link.download = 'Malik\'s_Resume.pdf'; // Specify the desired file name
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // }
+// function gitHub() {
+//     window.open('https://github.com/libSpace', '_blank');
+//   }
+  const gitHub = () => {
+    window.open('https://github.com/libSpace', '_blank');
+  };
+  const linkedIn = () => {
+    window.open('https://www.linkedin.com/in/malikmphomalope', '_blank');
+  };
+// function downloadCv() {
+//     window.open('../resume/Malik\'s Resume.pdf', '_blank');
+//   }
+
+
+  // Validation
   const [values, setValues] = useState({
     name: '',
     email: '',
@@ -92,8 +116,8 @@ export default function Reach() {
             <img src={contactForm} alt='contact svg' className='reach-image' />
           </div>
           <div className='reach-socials'>
-            <FaGithubSquare className="reach-soc-icons" />
-            <FaLinkedin     className="reach-soc-icons" />
+            <FaGithubSquare onClick={gitHub} className="reach-soc-icons" />
+            <FaLinkedin     onClick={linkedIn} className="reach-soc-icons" />
           </div>
           <p>Copyright (c) 2024 Malik Malope. All rights reserved.</p>
         </div>

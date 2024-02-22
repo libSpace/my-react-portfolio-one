@@ -10,6 +10,29 @@ import { FaLinkedin } from "react-icons/fa";
 
 
 function Home(){
+    function downloadCv() {
+        const link = document.createElement('a');
+        link.href = '../resume/Malik\'s Resume.pdf';
+        link.download = 'Malik\'s_Resume.pdf'; // Specify the desired file name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    // function gitHub() {
+    //     window.open('https://github.com/libSpace', '_blank');
+    //   }
+      const gitHub = () => {
+        window.open('https://github.com/libSpace', '_blank');
+      };
+      const linkedIn = () => {
+        window.open('https://www.linkedin.com/in/malikmphomalope', '_blank');
+      };
+    // function downloadCv() {
+    //     window.open('../resume/Malik\'s Resume.pdf', '_blank');
+    //   }
+
+
+
     return (
         // Main section
         <>
@@ -49,9 +72,12 @@ function Home(){
 
                             {/* Socials and a button for desktop screen */}
                             <div className="btn-icon1">
-                                <FaGithubSquare className="soc-icons" />
-                                <FaLinkedin     className="soc-icons" />
-                                <button className="my-btn1" ><a href="../resume/Malik's Resume.pdf">Download cv</a></button>
+                                <FaGithubSquare onClick={gitHub} className="soc-icons" />
+                                {/* <FaGithubSquare className="soc-icons" /> */}
+                                <FaLinkedin onClick={linkedIn}    className="soc-icons" />
+                                <button className="my-btn1" onClick={downloadCv}>
+                                    Download cv
+                                </button>
                             </div>
                         </div>
                         
@@ -61,9 +87,11 @@ function Home(){
 
                             {/* Socials and a button for mobile screen */}
                             <div className="btn-icon2">
-                                <FaGithubSquare href="https://github.com/libSpace" className="soc-icons" />
-                                <FaLinkedin     href="https://www.linkedin.com/in/malikmphomalope/"    className="soc-icons" />
-                                <button className="my-btn1" ><a href="../resume/Malik's Resume.pdf">Download cv</a></button>
+                                <FaGithubSquare onClick={gitHub} className="soc-icons" />
+                                <FaLinkedin     onClick={linkedIn}   className="soc-icons" />
+                                <button className="my-btn1" onClick={downloadCv}>
+                                    Download cv
+                                </button>
                             </div>
                         </div>
 

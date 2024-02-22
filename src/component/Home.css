@@ -48,9 +48,11 @@
 }
 .btn-icon1 .soc-icons{
     font-size: 2.8rem;
+    text-decoration: none;
 }
 .btn-icon1 .soc-icons:hover{
     color: var(--font-color);
+    text-decoration: none;
     
 }
 
@@ -61,11 +63,12 @@
     border-radius: 0.4rem;
     font-weight: bolder;
     border: none;
-    
+    text-decoration: none;
 }
 .btn-icon1 .my-btn1:hover{
     background-color: var(--font-color);
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .btn-icon2{
@@ -124,6 +127,7 @@
 
     .btn-icon1{
         display: none;
+         text-decoration: none;
      
     }
     .btn-icon2{
@@ -132,24 +136,28 @@
         text-align: center;
         margin: 0.6rem;
         gap: 1rem;
+        text-decoration: none;
     }
 
     .btn-icon2 .soc-icons{
         font-size: 2.8rem;
         transform: translateY(0.89rem);
-        
+        text-decoration: none;
         
     }
     .btn-icon2 .my-btn1{
         font-size: 1.4rem;
+        text-decoration: none;
     }
 
     .btn-icon2 .my-btn1:hover{
         color: var(--font-color);
+        text-decoration: none;
     }
 
     .btn-icon2 .soc-icons:hover{
         color: var(--font-color);
+        text-decoration: none;
         
     }
 
