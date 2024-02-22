@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69b5250c.css",
+    "main.js": "/static/js/main.68f0b1d8.js",
+    "static/js/592.b5653054.chunk.js": "/static/js/592.b5653054.chunk.js",
+    "static/media/proj2.png": "/static/media/proj2.c25d4a015c1c37b7df25.png",
+    "static/media/MALIK-removebg-preview.png": "/static/media/MALIK-removebg-preview.336286c7d1e02806b656.png",
+    "static/media/malik2-bg.png": "/static/media/malik2-bg.de94147460d1018f3a31.png",
+    "static/media/proj1.png": "/static/media/proj1.e8d3d9ec0fd51869d81b.png",
+    "static/media/contact.png": "/static/media/contact.bad33265de39919b2448.png",
+    "static/media/proj4.png": "/static/media/proj4.01f3b7700dfe16cf88f8.png",
+    "static/media/proj3.png": "/static/media/proj3.30c894efbdf052b9c279.png",
+    "static/media/java.png": "/static/media/java.cfdc1d63342579172543.png",
+    "static/media/react.png": "/static/media/react.89996b225745a7b82cf2.png",
+    "static/media/Bootstrap.png": "/static/media/Bootstrap.19cc7f07dbefb999a0db.png",
+    "index.html": "/index.html",
+    "main.69b5250c.css.map": "/static/css/main.69b5250c.css.map",
+    "main.68f0b1d8.js.map": "/static/js/main.68f0b1d8.js.map",
+    "592.b5653054.chunk.js.map": "/static/js/592.b5653054.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69b5250c.css",
+    "static/js/main.68f0b1d8.js"
+  ]
+}

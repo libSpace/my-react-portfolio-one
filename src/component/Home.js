@@ -61,12 +61,12 @@ function Home(){
 
                             {/* Socials and a button for mobile screen */}
                             <div className="btn-icon2">
-                                <FaGithubSquare className="soc-icons" />
-                                <FaLinkedin     className="soc-icons" />
+                                <FaGithubSquare href="https://github.com/libSpace" className="soc-icons" />
+                                <FaLinkedin     href="https://www.linkedin.com/in/malikmphomalope/"    className="soc-icons" />
                                 <button className="my-btn1" ><a href="../resume/Malik's Resume.pdf">Download cv</a></button>
                             </div>
                         </div>
-                            
+
                     </div>
 
                     
