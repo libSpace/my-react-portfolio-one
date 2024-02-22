@@ -2,7 +2,7 @@
     box-shadow: 0 0 2rem rgba(228, 135, 229, 0.5);
     align-items: center;
     justify-items: center;
-    margin: 2.5rem;
+    margin: 0 8rem;
     margin-top: 1rem;
     border-radius: 3rem;
     padding-bottom: 1.2rem;
@@ -76,6 +76,7 @@
     overflow: hidden;
     transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out, max-height 0.8s ease-in-out, border 0.6s ease-in-out;
     border: 2px solid transparent;
+    animation: ease-in;
     }
 
 
@@ -84,11 +85,11 @@
     transform: scale(1.02);
     max-height: 13rem;
     border-color: lightpink;
-    transition: max-height 0.6s ease-in-out, border-color 0.6s ease-in-out; /* Add max-height transition */
+    transition: max-height 0.6s ease-in-out, border-color 0.6s ease-in-out; 
     }
 
     .text-resp {
-    font-size: 0.65rem;
+    font-size: 1rem;
     display: none;
     opacity: 0;
     transform: translateY(-10px);
@@ -100,6 +101,11 @@
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+    }
+    .text-box:hover .ed-text-box{
+        font-size: small;
+        animation: ease-in;
+        opacity: 0.5;
     }
   
 @keyframes fadeInOut {
@@ -146,18 +152,18 @@ left: 50%;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    transform: translateY(-1.5rem);
-    animation: moveline 4s linear forwards;
+    /* transform: translateY(-1.5rem);
+    animation: moveline 4s linear forwards; */
 }
 
-@keyframes moveline{
+/* @keyframes moveline{
     0%{
         height: 0;
     }
     100%{
         height: 100%;
     }
-}
+} */
 
 
 .text-box h2 {
@@ -172,10 +178,12 @@ left: 50%;
 
 @media screen and (max-width: 700px) {
     .main-ed-cont{
-        padding-bottom: 0.01rem;
-        .journey{
-            transform: translateY(2rem);
-        }
+        padding-bottom: 0.2rem;
+        margin: 0.7rem;
+        
+    }
+    .main-ed-cont .journey{
+        transform: translateY(2rem);
     }
     .timeline{
     margin: 50px auto;

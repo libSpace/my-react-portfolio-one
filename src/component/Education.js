@@ -13,9 +13,9 @@ export default function Education() {
         <div className='timeline-container left-container'>
           <img src={younglings}  alt='younglings logo'/>
           <div className='text-box'>
-              <h2>Younglings Africa</h2>
-              <h4>Junior Software Developer</h4>
-              <small>2024 - current</small>
+              <h2 className='ed-text-box'>Younglings Africa</h2>
+              <h4 className='ed-text-box'>Junior Software Developer</h4>
+              <small className='ed-text-box'> 2024 - current</small>
               <ul className='text-resp'>
                 <li>Continuous Learning</li>
                 <li>Troubleshooting and Debugging</li>
