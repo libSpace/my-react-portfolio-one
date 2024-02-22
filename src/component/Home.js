@@ -63,7 +63,7 @@ function Home(){
                             <div className="btn-icon2">
                                 <FaGithubSquare className="soc-icons" />
                                 <FaLinkedin     className="soc-icons" />
-                                <button className="my-btn1"> Download cv</button>
+                                <button className="my-btn1" ><a href="../resume/Malik's Resume.pdf">Download cv</a></button>
                             </div>
                         </div>
                             
