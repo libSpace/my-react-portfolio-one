@@ -8,6 +8,21 @@ import project4 from './../images/proj4.png';
 import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci";
 
 export default function Projects() {
+
+  const port = () => {
+    window.open('https://malikmalope.netlify.app', '_blank');
+  };
+
+  const creativeI = () => {
+    window.open('https://creativetutorials.netlify.app', '_blank');
+  };
+
+  const gadgetB = () => {
+    window.open('https://gadget-borrow-website.netlify.app', '_blank');
+  };
+  
+
+  // Cube funtion
   const cubeRef = useRef(null);
 
   useEffect(() => {
@@ -49,15 +64,15 @@ export default function Projects() {
         <div className='pro-container'>
           <div className='image-cube' ref={cubeRef}>
             <div id='proj-pic' className='proj-front'>
-              <img className='proj-img' src={project1} alt='cartalogue1' />
+              <img className='proj-img' onClick={port} src={project1} alt='cartalogue1' />
             </div>
 
             <div id='proj-pic' className='proj-right'>
-              <img className='proj-img' src={project2} alt='cartalogue2' />
+              <img className='proj-img' onClick={creativeI} src={project2} alt='cartalogue2' />
             </div>
 
             <div id='proj-pic' className='proj-back'>
-              <img className='proj-img' src={project3} alt='cartalogue3' />
+              <img className='proj-img' onClick={gadgetB} src={project3} alt='cartalogue3' />
             </div>
 
             <div id='proj-pic' className='proj-left'>
