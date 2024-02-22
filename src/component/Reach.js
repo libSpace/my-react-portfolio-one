@@ -1,7 +1,7 @@
 import React from 'react';
 import Validation from './Validation';
 import './Reach.css';
-import reachSvg from './../images/phone-call.svg';
+import contactForm from '../images/contact.png';
 import ReCAPTCHA from "react-google-recaptcha";
 // Icons from react icons
 import { FaGithubSquare } from "react-icons/fa";
@@ -80,56 +80,24 @@ export default function Reach() {
                 onChange={handleInput}/>
                 {errors.message && <p style={{color:"red"}}>{errors.message}</p>}
             </div>
-            <ReCAPTCHA className='capcha' sitekey="6Lc0zXcpAAAAACZhNyaHzJ-xqBg_QdQ_m93TZKA8"/>
-              {/* onChange={handleCaptchaChange} */}
             <button className='reach-btn'>Submit</button>
+            <ReCAPTCHA className='capcha' sitekey="6Lcqn3opAAAAAA0jWrBAT0QnKBoKqTuAQEHPYlef"/>
+              {/* onChange={handleCaptchaChange} */}
+            
           </form>
         </div>
 
         <div className='reach-right'>
           <div className='illustration'>
-            <img src={reachSvg} alt='contact svg' className='reach-image' />
+            <img src={contactForm} alt='contact svg' className='reach-image' />
           </div>
           <div className='reach-socials'>
             <FaGithubSquare className="reach-soc-icons" />
             <FaLinkedin     className="reach-soc-icons" />
           </div>
+          <p>Copyright (c) 2024 Malik Malope. All rights reserved.</p>
         </div>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        
       </div>
     </>
   )
