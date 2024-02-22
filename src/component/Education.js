@@ -68,9 +68,9 @@ export default function Education() {
             <h4>BSc in Mathematics and Mathematical Statistics</h4>
             <small>2016 - 2021</small>
             <ul className='text-resp'>
-              <li>Engaged in coursework and research projects related to Mathematics and Mathematical Statistics</li>
-              <li>Participated in academic and extracurricular activities</li>
-              <li>Developed a solid foundation in mathematical principles and statistical analysis</li>
+              <li>Maths and Mathematical Statistics</li>
+              <li>Participated in academic activities</li>
+              <li>Developed statistical analysis</li>
               <li>Collaborated with peers on group projects and assignments</li>
             </ul>
             <span className='right-cont-arrow'></span>

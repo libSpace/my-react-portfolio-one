@@ -60,11 +60,11 @@
 
 .text-box {
     border: #E487E5 solid 2px;
-    padding: 1.25rem 5rem ;
+    padding: 1.25rem 6rem ;
     background: rgba(31, 30, 99, 0.8);
     position: relative;
     border-radius: 0.375rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     user-select: none;
 
@@ -89,21 +89,17 @@
     font-size: 1rem;
     display: none;
     opacity: 0;
-    transform: translateY(-10px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     }
 
     .text-box:hover .text-resp {
     display: block;
     opacity: 1;
-    transform: translateY(0);
+
+    border: #b29fb3 solid 2px;
     transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
     }
-    /* .text-box:hover .ed-text-box{
-        font-size: small;
-        animation: ease-in;
-        opacity: 0.5;
-    } */
+
   
 @keyframes fadeInOut {
 0% {
@@ -174,15 +170,20 @@ left: 50%;
 }
 @media screen and (max-width: 1050px) {
     .main-ed-cont{
-        padding-bottom: 0.2rem;
+    
         margin: 1rem;
-        padding: 0 0 0 0;
-        
+        padding: 0 0 1px 0;
+      
     }
     .timeline{
-        margin: 50px auto;
-        /* margin-right: 9rem; */
-        }
+    margin: 51px auto;
+    /* margin-right: 9rem; */
+    }
+    .text-box{
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 780px) {
@@ -201,13 +202,24 @@ left: 50%;
     .timeline::after{
         left: 31px;
     }
+    .text-box:hover .text-resp {
+        /* width: rem; */
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 11px;
+        
+        }
     .timeline-container{
         width: 100%;
         padding-left: 50px;
         padding-right: 15px;
+        /* border: red 2px solid; */
     }
     .text-box{
-        font-size: 11px;
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
     }
     .text-box small{
         margin-bottom: 5px;
