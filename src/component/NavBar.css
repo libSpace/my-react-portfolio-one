@@ -60,7 +60,14 @@
 /* .nav-content .menu-wrapper .my-icon{
   text-decoration: none;
 } */
-
+.menu-item a {
+  text-decoration: none;
+  color: inherit; 
+}
+.menu-item a:hover {
+  text-decoration: none;
+  color: #c191c2; 
+}
 
 .menu-item,
 .myLogo {
